@@ -1,0 +1,168 @@
+
+/*Start nav*/
+form
+{
+    position: relative;
+}
+form .input-form
+{
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    height: 44px;
+    border: 1px solid #e4eef2;
+    background: #f7fafb;
+    border-bottom-left-radius:16px;
+    margin: 0;
+    font-size: 23px;
+    padding-right: 15px;
+    position: relative;
+    
+
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
+{
+    color: #00aff0;
+    
+}
+form .input-form:focus
+{
+    box-shadow: 0 0 0 0.05rem rgba(0,123,255,.25);
+}
+form .icon-button 
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55px;
+    height: 44px;
+   border: none;
+    background: #00aff0;
+    color: #fff;
+    border-radius: 0px 22px 22px 0px;
+    cursor: pointer;
+}
+form .icon-button:hover 
+{
+     border-radius: 0px 22px 22px 0px;
+}
+form .icon-button:focus 
+{
+        box-shadow:none;
+
+}
+form .icon-button i
+{
+ font-size: 1.35rem;
+  margin-top: 5px;
+ display: inline-block;
+ margin-left: 2px;
+font-weight: 600;
+}
+/*End nav*/
+/* start hiddenNav*/
+#hiddenNav
+{
+    display:none;
+}
+#hiddenNav li a
+{
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #00aff0;
+    border-radius: 20px;
+}
+/* End hiddenNav*/
+
+/* start form contact_us */ 
+.contact_us
+{
+	
+	margin: auto;
+	background-color: rgba(0,0,255,0.9);
+	width: 400px;
+	padding: 10px;
+	position: relative;
+	
+}
+
+.contact_us input , select
+{
+	padding: 5px;
+	display: block;
+	margin-bottom: 5px;
+	width: 380px;
+}
+
+.contact_us i
+{
+	background-color: #ccc;
+	padding: 10px 2px;
+	position: absolute;
+	right: 1px;
+	top:44px
+}
+
+.contact_us button
+{
+	margin-top: 50px;
+	
+}
+
+.nots
+{
+	margin-top: 30px !important;
+	margin: auto;
+	background-color: yellow;
+	width: 400px;
+	padding: 10px;
+	position: relative;
+	direction: rtl !important;
+	border:2px solid black;
+}
+
+.nots h2
+{
+	direction: rtl !important;
+	font-size: 20px;
+	float: right;
+	
+}
+
+.nots p
+{
+	direction: rtl !important;
+	font-size: 16px;
+	text-align: center;
+}
+
+/* end form contact_us */ 
+
+/*start footer*/
+.footer-content;
+{
+    background-color: #fff;
+}
+.footer-content a
+{
+        color: #2c69b0;
+    font-size: 19px;
+    text-decoration: none;
+}
+.social-icon i
+{
+    font-size: 24px;
+    border: 1px solid #333;
+     color: #333;
+    background-color: transparent;
+    
+}
+.social-icon i:hover
+{
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+
+}
+
+/*End footer*/
