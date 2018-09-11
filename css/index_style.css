@@ -284,6 +284,71 @@ font-weight: 600;
     box-shadow: none;
 }
 /*End form*/
+
+/* start form contact_us */ 
+.contact_us
+{
+	
+	margin: auto;
+	background-color: rgba(0,0,255,0.9);
+	width: 400px;
+	padding: 10px;
+	position: relative;
+	
+}
+
+.contact_us input , select
+{
+	padding: 5px;
+	display: block;
+	margin-bottom: 5px;
+	width: 380px;
+}
+
+.contact_us i
+{
+	background-color: #ccc;
+	padding: 10px 2px;
+	position: absolute;
+	right: 1px;
+	top:44px
+}
+
+.contact_us button
+{
+	margin-top: 50px;
+	
+}
+
+.nots
+{
+	margin-top: 30px !important;
+	margin: auto;
+	background-color: yellow;
+	width: 400px;
+	padding: 10px;
+	position: relative;
+	direction: rtl !important;
+	border:2px solid black;
+}
+
+.nots h2
+{
+	direction: rtl !important;
+	font-size: 20px;
+	float: right;
+	
+}
+
+.nots p
+{
+	direction: rtl !important;
+	font-size: 16px;
+	text-align: center;
+}
+
+/* end form contact_us */ 
+
 /*start footer*/
 .footer-content;
 {

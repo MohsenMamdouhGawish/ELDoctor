@@ -8,6 +8,20 @@ $(".show").click(function(){
 
 })*/
 
-
+$(document).ready(function(){
+	
+	var plch = '';
+	
+	$('.contact_us input').mouseenter(function(){
+	plch=$(this).attr("placeholder")	
+	$(this).attr("placeholder","")
+		$(this).mouseleave(function(){
+			$(this).attr("placeholder",plch)
+		})
+	})
+	
+	
+	
+});
 
 
