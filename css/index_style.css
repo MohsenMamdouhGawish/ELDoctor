@@ -2,6 +2,7 @@
 {
     transition: all 0.3s;
 }
+
 body
 {
     font-family:  "roboto",lfont;
@@ -16,8 +17,6 @@ body
     height: 100%;
     z-index: 2222222222;
     position: fixed;
-    opacity: 1;
-    
 }
 #loading .spinner {
   margin: 200px auto;
@@ -70,6 +69,7 @@ body
 }
 /*start loading*/
 /*Start nav*/
+
 form
 {
     position: relative;
@@ -130,9 +130,12 @@ font-weight: 600;
 }
 /*End nav*/
 /* start hiddenNav*/
-#hiddenNav
+
+
+ #hiddenNav .fixed-top
 {
-    display:none;
+      top: -80px;
+  
 }
 #hiddenNav li a
 {

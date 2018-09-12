@@ -70,10 +70,10 @@ font-weight: 600;
 }
 /*End nav*/
 /* start hiddenNav*/
-#hiddenNav
+#hiddenNav .fixed-top
 {
-    display:none;
-}
+    top:-80px;
+ }
 #hiddenNav li a
 {
     color: #fff;

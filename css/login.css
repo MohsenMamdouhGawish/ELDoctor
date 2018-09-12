@@ -110,9 +110,9 @@ font-weight: 600;
 }
 /*End nav*/
 /* start hiddenNav*/
-#hiddenNav
+#hiddenNav .fixed-top
 {
-    display:none;
+    top: -110px;
 }
 #hiddenNav li a
 {
