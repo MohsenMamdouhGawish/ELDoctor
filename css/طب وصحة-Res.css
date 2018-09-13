@@ -1,0 +1,455 @@
+@media (max-width:1299px) and (min-width:1185px)
+{
+    #teb .img-title
+        {
+                padding: 7px 15px;
+        }
+    #teb .img-kid
+        {
+            padding: 5px 8px;
+        }
+    #teb .img-spe
+        {
+            padding: 5px 8px;
+        }
+    #teb .img-skin
+        {
+             padding: 5px 8px;
+
+        }
+      .teb-title:before
+            {
+                 width: 35%;
+            }
+    .teb-title:after
+        {
+            width: 35%;
+        }
+           
+  #teb #body .teb-title:before
+            {
+                 width:32%;
+            }
+
+    #teb #body .teb-title:after
+            {
+                width: 32%;
+            }
+       
+}
+@media (max-width:1184px) and (min-width:1080px)
+{
+    #teb .img-title
+        {
+                padding: 7px 15px;
+        }
+    #teb .img-kid
+        {
+             top: 70%;
+            padding: 5px 8px;
+        }
+    #teb .img-spe
+        {
+           
+            padding: 5px 8px;
+        }
+    #teb .img-skin
+        {
+             top: 70%;
+            padding: 5px 8px;
+        }
+#teb .teb-title:before
+            {
+                 width: 37%;
+            }
+   #teb .teb-title:after
+        {
+            width: 37%;
+        }
+  #teb #body .teb-title:before
+            {
+                 width:30%;
+            }
+
+    #teb #body .teb-title:after
+        {
+            width: 30%;
+        }
+}
+@media (max-width:1079px) and (min-width:1016px)
+{
+    #teb .img-title
+        {
+                top: 69%;
+                left: 48%;
+                padding: 7px 10px;
+                 
+
+        }
+    #teb .img-kid
+        {
+             top: 65%;
+            padding: 5px 8px;
+        }
+    #teb .img-spe
+        {
+           top: 70%;
+            left: 40%;
+            padding: 5px 8px;
+        }
+    #teb .img-skin
+        {
+             top: 65%;
+            padding: 5px 8px;
+        }
+    #teb .img-icon
+    {
+        top: 72%;
+         left: 9%;
+
+    }
+           
+    #teb .teb-title:before
+            {
+                 width: 33%;
+            }
+   #teb .teb-title:after
+        {
+            width: 33%;
+        }
+   #teb #body .teb-title:before
+            {
+                 width:25%;
+            }
+
+ #teb #body .teb-title:after
+{
+    width: 25%;
+}
+
+}
+@media (max-width:1015px) and (min-width:770px)
+{
+    #teb .img-title
+        {
+                top: 55%;
+                left: 37%;
+                padding: 4px 8px;
+                 
+
+        }
+    #teb .img-kid
+        {
+             top: 51%;
+             left: 30%;
+
+            padding: 2px 4px;
+        }
+    #teb .img-spe
+        {
+           top: 55%;
+            left: 37%;
+            padding: 5px 7px;
+        }
+    #teb .img-skin
+        {
+             top: 40%;
+            left: 37%;
+            padding: 3px 4px;
+        }
+    #teb .img-icon
+        {
+            top: 57%;
+             left: 10%;
+
+        }
+           
+    #teb .teb-title:before 
+            {
+                 width: 29%;
+            }
+    #teb .teb-title:after 
+        {
+            width: 29%;
+        }
+#teb #body .teb-title:before
+            {
+                 width:30%;
+            }
+
+  #teb #body .teb-title:after
+        {
+            width: 30%;
+        }
+}
+@media (max-width:769px) and (min-width:575px)
+{
+    #teb img
+    {
+        margin-bottom: 40px;
+    }
+    
+    #teb .img-title
+        {
+                top: 69%;
+                left: 48%;
+                padding: 7px 10px;
+        }
+    #teb .img-kid
+        {
+             top: 65%;
+            padding: 5px 8px;
+        }
+    #teb .img-spe
+        {
+           top: 70%;
+            left: 40%;
+            padding: 5px 8px;
+        }
+    #teb .img-skin
+        {
+             top: 65%;
+            padding:4px 7px;
+        }
+    #teb .img-icon
+    {
+        top: 71%;
+         left: 9%;
+
+    }
+    #teb .teb-title:before 
+            {
+                 width: 25%;
+            }
+    #teb .teb-title:after 
+        {
+            width: 25%;
+        }
+#teb #body .teb-title:before
+            {
+                 width:25%;
+            }
+
+  #teb #body .teb-title:after
+        {
+            width: 25%;
+        }
+    
+    
+}
+@media (max-width:574px)
+{
+     #teb img
+    {
+        margin-bottom: 40px;
+    }
+    
+    #teb .img-title
+        {
+                top: 69%;
+                left: 38%;
+                padding: 7px 15px;
+        }
+    #teb .img-kid
+        {
+             top: 65%;
+            padding: 5px 8px;
+        }
+    #teb .img-spe
+        {
+           top: 70%;
+            left: 40%;
+            padding: 5px 8px;
+        }
+    #teb .img-skin
+        {
+             top: 65%;
+            
+            padding:4px 7px;
+        }
+    #teb .img-icon
+    {
+        top: 71%;
+         left: 9%;
+
+    }
+    #teb .teb-title:before 
+            {
+                 width:25%;
+            }
+    #teb .teb-title:after 
+        {
+            width: 25%;
+        }
+#teb #body .teb-title:before
+            {
+                 width:19%;
+            }
+
+  #teb #body .teb-title:after
+        {
+            width: 19%;
+        }
+    
+    
+}
+@media(max-width:1300px) and (min-width:1070px)
+{
+              
+     #teb #body .body-content ul li .a1
+        {
+            top: 20px;
+            left: 60%;
+        }
+   #teb #body .body-content ul li .a2
+            {
+                 top: 18%;
+                left: 63%;
+            }
+    #teb #body .body-content ul li .a3
+        {
+                  top: 32%;
+                left: 65%;
+        }
+    #teb #body .body-content ul li .a4
+        {
+            top: 47%;
+            left: 66%;
+        }
+   #teb #body .body-content ul li .a5
+        {
+            top: 63%;
+            left: 66%;
+        }
+   #teb #body .body-content ul li .a6
+        {
+            top: 78%;
+            left: 61%;
+        }
+   #teb #body .body-content ul li .a7
+        {
+             top: 9%;
+            left:36%;
+        }
+   #teb #body .body-content ul li .a8
+        {
+             top: 24%;
+            left:29%;
+        }
+   #teb #body .body-content ul li .a9
+        {
+             top:41%;
+            left:26%;
+        }
+   #teb #body .body-content ul li .a10
+        {
+            top: 58%;
+            left: 26%;
+        }
+   #teb #body .body-content ul li .a11
+        {
+             top: 75%;
+            left: 10%;
+        }  
+}
+@media(max-width:1070px)and (min-width:770px)
+{
+              
+   #teb #body .body-content ul li .a1
+        {
+            top: 20px;
+            left: 65%;
+        }
+   #teb #body .body-content ul li .a2
+            {
+                 top: 18%;
+                left: 70%;
+            }
+    #teb #body .body-content ul li .a3
+        {
+                  top: 32%;
+                left: 73%;
+        }
+    #teb #body .body-content ul li .a4
+        {
+            top: 47%;
+            left: 75%;
+        }
+   #teb #body .body-content ul li .a5
+        {
+            top: 63%;
+            left: 77%;
+        }
+   #teb #body .body-content ul li .a6
+        {
+            top: 78%;
+            left: 70%;
+        }
+   #teb #body .body-content ul li .a7
+        {
+             top: 10%;
+            left:30%;
+        }
+   #teb #body .body-content ul li .a8
+        {
+             top: 25%;
+            left:19%;
+        }
+   #teb #body .body-content ul li .a9
+        {
+             top:42%;
+            left:15%;
+        }
+   #teb #body .body-content ul li .a10
+        {
+            top: 60%;
+            left: 15%;
+        }
+   #teb #body .body-content ul li .a11
+        {
+             top: 77%;
+            left: 18%;
+        }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

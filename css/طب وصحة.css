@@ -1,0 +1,329 @@
+*
+{
+    transition: all 0.3s;
+}
+
+body
+{
+    font-family:  "roboto",lfont;
+    background-color:#e8edf3;
+    
+}
+/*Start nav*/
+
+form
+{
+    position: relative;
+}
+form .input-form
+{
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    height: 44px;
+    border: 1px solid #e4eef2;
+    background: #f7fafb;
+    border-bottom-left-radius:16px;
+    margin: 0;
+    font-size: 23px;
+    padding-right: 15px;
+    position: relative;
+    
+
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
+{
+    color: #2c69b0;
+    
+}
+form .input-form:focus
+{
+    box-shadow: 0 0 0 0.05rem rgba(0,123,255,.25);
+}
+form .icon-button 
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55px;
+    height: 44px;
+   border: none;
+    background: #00aff0;
+    color: #fff;
+    border-radius: 0px 22px 22px 0px;
+    cursor: pointer;
+}
+form .icon-button:hover 
+{
+     border-radius: 0px 22px 22px 0px;
+}
+form .icon-button:focus 
+{
+        box-shadow:none;
+
+}
+form .icon-button i
+{
+ font-size: 1.35rem;
+  margin-top: 5px;
+ display: inline-block;
+ margin-left: 2px;
+font-weight: 600;
+}
+/*End nav*/
+/* start hiddenNav*/
+
+
+ #hiddenNav .fixed-top
+{
+      top: -80px;
+  
+}
+#hiddenNav li a
+{
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #00aff0;
+    border-radius: 20px;
+}
+/* End hiddenNav*/
+/*start teb*/
+#teb
+{
+    margin: auto;
+    width: 90%;
+    background-color: #fff;
+}
+#teb .teb-title
+{
+    position: relative;
+    color: #2c69b0;
+}
+#teb .teb-title:before
+{
+    content: "";
+    width:42%;
+    height: 4px;
+    background-color: #e8edf3;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+#teb .teb-title:after
+{
+    content: "";
+    width:42%;
+    height: 4px;
+    background-color:#e8edf3;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+#teb .img-icon
+{
+    position:absolute;
+    top: 82%;
+    left: 7%;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    color: #fff;
+    border-radius: 50%;
+background-color:#2c69b0;
+}
+
+#teb .img-title
+{
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    border: 1px solid #2c69b0;
+    padding: 7px 28px;
+    color: #444;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgba(232,237,243,0.8);
+    text-align: right;
+}
+#teb .img-spe
+{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    border: 1px solid #2c69b0;
+    padding: 7px 15px;
+    color: #444;
+        border-radius: 10px;
+        font-size: 18px;
+      background-color: rgba(232,237,243,0.8);
+}
+#teb .img-kid
+{
+    position: absolute;
+    top: 79%;
+    left: 35%;
+    border: 1px solid #2c69b0;
+    padding: 7px 15px;
+    color: #444;
+        border-radius: 10px;
+        font-size: 18px;
+    text-align: right;
+      background-color: rgba(232,237,243,0.8);
+}
+#teb .img-skin
+{
+    position: absolute;
+    top: 80%;
+    left: 26%;
+    border: 1px solid #2c69b0;
+    padding: 7px 15px;
+    color: #444;
+        font-size: 18px;
+    text-align: right;
+        border-radius: 10px;
+
+      background-color: rgba(232,237,243,0.8);
+}
+
+/*End teb*/
+
+#body .teb-title
+{
+    position: relative;
+}
+#body .teb-title:before
+{
+    content: "";
+    width:38%;
+    height: 4px;
+    background-color: #e8edf3;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+#body .teb-title:after
+{
+    content: "";
+    width:38%;
+    height: 4px;
+    background-color: #e8edf3;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+#body .body-content 
+{
+    position: relative;
+}
+#body .body-content ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#body .body-content ul li a
+{
+    text-decoration: none;
+    color: #00667e;
+    font-size: 20px;
+}
+#body .body-content ul li .a1
+{
+    position: absolute;
+    top: 20px;
+    left: 60%;
+}
+#body .body-content ul li .a2
+{
+    position: absolute;
+    top: 18%;
+    left: 63%;
+}
+#body .body-content ul li .a3
+{
+    position: absolute;
+    top: 32%;
+    left: 65%;
+}
+#body .body-content ul li .a4
+{
+    position: absolute;
+    top: 47%;
+    left: 66%;
+}
+#body .body-content ul li .a5
+{
+    position: absolute;
+    top: 63%;
+    left: 66%;
+}
+#body .body-content ul li .a6
+{
+    position: absolute;
+    top: 78%;
+    left: 61%;
+}
+#body .body-content ul li .a7
+{
+    position: absolute;
+    top: 9%;
+    left:36%;
+}
+#body .body-content ul li .a8
+{
+    position: absolute;
+    top: 24%;
+    left:29%;
+}
+#body .body-content ul li .a9
+{
+    position: absolute;
+    top:41%;
+    left:26%;
+}
+#body .body-content ul li .a10
+{
+    position: absolute;
+    top: 58%;
+    left: 26%;
+}
+#body .body-content ul li .a11
+{
+    position: absolute;
+    top: 75%;
+    left: 26%;
+}
+
+
+
+
+
+
+/*start footer*/
+.footer-content
+{
+    background-color: #fff;
+}
+.footer-content a
+{
+        color: #2c69b0;
+    font-size: 19px;
+    text-decoration: none;
+}
+.social-icon i
+{
+    font-size: 24px;
+    border: 1px solid #333;
+     color: #333;
+    background-color: transparent;
+    
+}
+.social-icon i:hover
+{
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+
+}
+
+/*End footer*/
