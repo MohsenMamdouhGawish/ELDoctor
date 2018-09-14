@@ -87,40 +87,77 @@ font-weight: 600;
     border-radius: 20px;
 }
 /* End hiddenNav*/
-#content .card-box
-{
-    background-color: #fff;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
-    text-align: right;
-    border-radius: 5px;
 
+/*start content */
+#content
+{
 }
-#content .card-box a
+
+#content .sideNave ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#content .sideNave ul li
+{
+    position: relative;
+}
+#content .sideNave ul li a
 {
     text-decoration: none;
-    font-size: 18px;
 }
-#content .card-box img
+
+#content .sideNave ul li span
 {
-        border-radius: 5px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: #fff;
 }
-#content .card-box .card-title
+#content .title 
 {
-    padding: 21px 20px 21px 20px;
+    text-align: center;
+    font-size: 22px;
 }
-p  ,h2
+#content a
 {
-    border-color: #e8edf3!important;
+        text-decoration: none;
+
 }
-h2
+#content .title a 
 {
-    font-size: 20px!important;
-    color:#d66e63;
+            color: #d66e63;
+
 }
-h2 > i 
+#content .title a i
 {
-    color: #00aff0;
+    color:#0056b3;
+
 }
+
+#content .img-fluid
+{
+    border-radius: 10px;
+}
+#content .info
+{
+    text-align: center;
+    
+}
+
+
+
+/*End content */
+
+
+
+
+
+
+
+
+
 /*start footer*/
 .footer-content
 {
