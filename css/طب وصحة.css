@@ -227,6 +227,11 @@ background-color:#2c69b0;
     color: #00667e;
     font-size: 20px;
 }
+#body .body-content ul li a:hover
+{
+    color: #d66e63;
+}
+
 #body .body-content ul li .a1
 {
     position: absolute;
