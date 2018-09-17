@@ -125,7 +125,10 @@ font-weight: 600;
 /* End hiddenNav*/
 
 
-
+#login form .alert
+{
+    display: none;
+}
 
 
 

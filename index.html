@@ -42,8 +42,8 @@
                   <li class="nav-item">
                     <a title="طب و صحة- الدكتور" class="nav-link" href="%D8%B7%D8%A8%20%D9%88%D8%B5%D8%AD%D8%A9.html">طب و صحة <span class="pl-4">|</span></a>
                   </li>
-                  <li class="nav-item">
-                    <a title="الصفحة الرئيسية - الدكتور" class="nav-link" href="index.html">الصفحة الرئيسية </a>
+                  <li class="nav-item ">
+                    <a title="الصفحة الرئيسية - الدكتور" class="nav-link " href="index.html">الصفحة الرئيسية </a>
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0 m-auto">
@@ -222,11 +222,15 @@
                             <form class="form">
                               <label style="font-size: 20px;">اسم المستخدم <i class="far fa-user-circle  pl-1" style="color: #2c69b0;"></i></label> 
                                 <br />
-                                <input class="form-control inpts-form text-right" type="text" name="uname"/>
+                                <input class="form-control inpts-form text-right" type="text" onkeyup="validateUsername()" id="username"  name="uname"/>
+                                 <div class=" mt-2 alert alert-danger">Username OR Email not valid</div>
+                                   <div class=" mt-2 alert alert-success">Username OR Email  valid</div>
                                  <br />
-                                <label style="font-size: 20px;">كلمة المرور <i class="fas fa-unlock-alt pl-1 "style="color: #2c69b0;"></i></label> 
+                                <label style="font-size: 20px;">كلمة المرور <i class="fas fa-unlock-alt pl-1 " style="color: #2c69b0;"></i></label> 
                                  <br />
-                                <input class="form-control inpts-form  text-right"  type="password" name="upassword"/>
+                                <input class="form-control inpts-form  text-right"  type="password"  id="password" onkeyup="validatePassword()"  name="upassword"/>
+                                <div class=" mt-2 alert alert-danger">passwored is weak </div>
+                                <div class=" mt-2 alert alert-success">password is strong </div>
                                  <br />
                                 <a href="#"style="text-decoration: none; color:#555;"><p class="text-center" >نسيت كلمة المرور؟</p></a>
                                  <br />

@@ -76,8 +76,12 @@
         <section id="login" class="my-5">
             <h1 class="text-center py-4" >تسجيل الدخول</h1>
             <form class="form text-right">
-                <input class="text-right form-control mb-4" style="background-color:#e8edf3 " type="text" name="uname" placeholder="البريد الالكتروني او اسم المستخدم">
-<input  class="text-right form-control mb-4" style="background-color:#e8edf3 " type="password" name="upassword" placeholder="كلمة المرور">
+                <input class="text-right form-control mb-4" style="background-color:#e8edf3 " onkeyup="validateUsername()" id="username" type="text" name="uname" placeholder="البريد الالكتروني او اسم المستخدم">
+                <div class=" mt-2 alert alert-danger">Username OR Email not valid</div>
+                <div class=" mt-2 alert alert-success">Username OR Email  valid</div>
+<input  class="text-right form-control mb-4" style="background-color:#e8edf3 " id="password" onkeyup="validatePassword()" type="password" name="upassword" placeholder="كلمة المرور">
+                 <div class=" mt-2 alert alert-danger">passwored is weak </div>
+                <div class=" mt-2 alert alert-success">password is strong </div>
                 <button class="btn btn-block">ادخل</button>
                  <a href="#"style="text-decoration: none; color:#555;"><p class="text-center py-4" >نسيت كلمة المرور؟</p></a>
             </form>

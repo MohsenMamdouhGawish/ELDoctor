@@ -1,3 +1,4 @@
+
 @media (max-width:1290px) and (min-width:1070px)
 {
    .navbar .navbar-brand 
@@ -67,3 +68,78 @@
 
     }
 }
+@media (max-width:991px)
+{
+   
+     #hiddenNav .fixed-top
+        {
+              top: -300px;
+
+        }
+    form .input-form
+    {
+        width: 100%;
+    }
+}
+@media (max-width:991px) and (min-width:928px)
+{
+     form .icon-button 
+
+    {
+        left: 22%;
+    }
+}
+@media (max-width:927px) and (min-width:800px)
+{
+     form .icon-button 
+
+    {
+        left: 27%;
+    }
+}
+@media (max-width:799px) and (min-width:740px)
+{
+     form .icon-button 
+
+    {
+        left: 37%;
+    }
+}
+@media (max-width:739px) and (min-width:640px)
+{
+     form .icon-button 
+
+    {
+        left: 44%;
+    }
+}
+@media (max-width:639px) and (min-width:576px)
+{
+     form .icon-button 
+
+    {
+        left: 50%;
+    }
+}
+@media (max-width:575px)
+{
+     form .icon-button 
+
+    {
+        left: 90%;
+    }
+}
+@media (max-width:991px)
+{
+     nav .nav-item a span
+
+    {
+       display: none;
+    }
+      nav .nav-item 
+    {
+        padding:5px 10px;
+        margin-left: 10px;
+    }
+}
+    
